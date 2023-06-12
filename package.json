@@ -1,15 +1,16 @@
 {
   "name": "playlist-by-language",
-  "version": "1.0.0",
+  "private": true,
+  "version": "0.0.0",
   "description": "An application for generating Spotify playlists based on the languages in the user's liked songs.",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "keywords": [
-    "spotify",
-    "playlist"
-  ],
-  "author": "Antony Nyagah",
-  "license": "ISC"
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
 }
