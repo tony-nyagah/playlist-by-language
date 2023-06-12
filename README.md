@@ -1,2 +1,2 @@
-# playlist-by-language
+# Playlist by Language
 A simple application that creates Spotify playlists based on the songs in your liked list but categorizes the songs by language.
