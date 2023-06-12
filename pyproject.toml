@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "playlist-by-language"
+version = "0.1.0"
+description = "A simple application that creates Spotify playlists based on the songs in your liked list but categorizes the songs by language."
+authors = ["Antony Nyagah <tony.m.nyagah@gmail.com>"]
+license = "ISC"
+readme = "README.md"
+packages = [{include = "playlist_by_language"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
