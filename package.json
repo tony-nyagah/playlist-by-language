@@ -1,0 +1,15 @@
+{
+  "name": "playlist-by-language",
+  "version": "1.0.0",
+  "description": "An application for generating Spotify playlists based on the languages in the user's liked songs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spotify",
+    "playlist"
+  ],
+  "author": "Antony Nyagah",
+  "license": "ISC"
+}
